@@ -30,24 +30,16 @@ public class Book<authors> {
     public List<Author> getAuthors() {
         return authors;
     }
-    public
-    authors) {
-        void
-        setAuthors(List272103_1_En
-        this.authors
-        this.authors = authors;
+    public <List272103_1_En> void setAuthors (List272103_1_En authors){
+        this.authors = (List<Author>) authors;
     }
     public String getPublisherName() {
         return publisherName;
     }
-    public
-    void
-    publisherName) {
-        setPublisherName(String
+    public void setPublisherName(String publisherName){
         this.publisherName = publisherName;
     }
     public String toString() {
-        return "com.apress.books.model.Book - Id: " + id + ", com.apress.books.model.Book Title:
-        " + bookTitle;
+        return "com.apress.books.model.Book - Id: " + id + ", com.apress.books.model.Book Title: " + bookTitle;
     }
 }
